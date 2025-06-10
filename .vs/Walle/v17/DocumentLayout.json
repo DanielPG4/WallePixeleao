@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleclass\\scrpt\\expression\\expressionarithmetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expressionarithmetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleclass\\scrpt\\expression\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpressionArithmetic.cs",
+              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:16:41.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Expression.cs",
+              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:09:48.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lexer.cs",
+              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Lexer.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Lexer.cs",
+              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Lexer.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Lexer.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:48:33.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Token.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Token.cs",
+              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Token.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Token.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:26:28.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Error.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Error.cs",
+              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Error.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:23:57.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Parser.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Parser.cs",
+              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Parser.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Parser.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA4wEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:13:49.967Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
