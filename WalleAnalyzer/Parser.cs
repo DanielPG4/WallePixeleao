@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 using WalleClass;
 
 
 namespace WalleAnalyzer
-{
+{ 
     class Parser
     {
+        List<string> function;
+        List<string> instruction;
         Dictionary<string, List<Type>> parametersType;
         Dictionary<string, string> admissibleParameters;
         public List<Error> errors;
         List<Token> tokenList;
+        List<Node> program;
 
         int tokenAct = 0;
 
@@ -24,6 +29,17 @@ namespace WalleAnalyzer
             errors = new List<Error>();
             admissibleParameters = new Dictionary<string, string>();
             parametersType = new Dictionary<string, List<Type>>();
+            function = new List<string>();
+            instruction = new List<string>();
+            program = new List<Node>();
+        }
+        /*public ParserIntruction()
+        {
+            if (tokenList[tokenAct].Type == TokenType.In)
+        }*/
+        Expression ParseExpression()
+        {
+
         }
 
         public bool ConsumeToken()
@@ -39,7 +55,7 @@ namespace WalleAnalyzer
 
         public void Parseador()
         {
-            Register(); // Asegurar que los parámetros estén registrados
+            Register(); 
 
             while (tokenAct < tokenList.Count)
             {
@@ -52,9 +68,9 @@ namespace WalleAnalyzer
                     {
                         if (!ValidateParameters(parameters, commandName))
                         {
-                            // El error ya fue agregado en ValidateParameters
+                            
                         }
-                        // Aquí podrías construir el nodo del AST correspondiente
+                        
                     }
                     else
                     {
@@ -79,60 +95,34 @@ namespace WalleAnalyzer
             errors.Add(new Error(tokenList[tokenAct].location, text));
         }
 
-        List<Expression> ParseParameters(string name)//revisar
+        List<Expression> ParseParameters(string name)
         {
             List<Expression> parameters = new List<Expression>();
 
-            // Verificar paréntesis de apertura
             if (!ConsumeToken() || tokenList[tokenAct].Value != "(")
             {
                 AddError($"Se esperaba '(' después de {name}");
-                return parameters;
+                return null;
             }
 
-            // Parsear parámetros
-            while (true)
+            for (;IsInRange() && GetTokenValue() != ")" ; ConsumeToken())
             {
-                if (!ConsumeToken())
+                Expression expression = ParseExpression();
+                if (expression == null)
                 {
-                    AddError("Fin inesperado del código");
-                    return parameters;
+                    return null;
                 }
 
-                // Fin de los parámetros
-                if (tokenList[tokenAct].Value == ")")
-                    break;
+                if (!ConsumeToken()) return null;   
 
-                // Parsear expresión según el tipo de token
-                switch (tokenList[tokenAct].Type)
-                {
-                    case TokenType.Number:
-                        parameters.Add(new Number(tokenList[tokenAct].Value));
-                        break;
-                    case TokenType.Variable:
-                        parameters.Add(new Variable(tokenList[tokenAct].Value));
-                        break;
-                    default:
-                        AddError($"Parámetro inválido: {tokenList[tokenAct].Value}");
-                        break;
-                }
-
-                // Verificar coma o paréntesis de cierre
-                if (!ConsumeToken())
-                {
-                    AddError("Fin inesperado del código");
-                    return parameters;
-                }
-
-                if (tokenList[tokenAct].Value == ")")
-                    break;
-
-                if (tokenList[tokenAct].Value != ",")
+                if (GetTokenValue() != "," && GetTokenValue() != ")")
                 {
                     AddError($"Se esperaba ',' o ')', se encontró {tokenList[tokenAct].Value}");
-                    return parameters;
+                    return null;
                 }
+                
             }
+            if (!ValidateParameters(parameters, name)) return null;
 
             return parameters;
         }
@@ -178,6 +168,42 @@ namespace WalleAnalyzer
             return true;
         }
 
+        bool ParseIntruction()
+        {
+            List<Expression> parameters = new List<Expression>();
+            Token inst = tokenList[tokenAct];
+            if (instruction.Contains(GetTokenValue()))
+            {
+                ConsumeToken();
+                parameters = ParseParameters(inst.Value);
+
+                if (parameters == null) return false;
+                
+                return true;
+            }
+            AddError("Se esperaba una instrucción");
+            return false;
+        }
+
+        bool IsInRange(int i)
+        {
+            return i< tokenList.Count;
+        }
+        bool IsInRange()
+        {
+            return tokenAct < tokenList.Count;
+        }
+        string GetTokenValue()
+        {
+
+            return tokenList[tokenAct].Value;
+        }
+        TokenType GetTokenType()
+        {
+
+            return tokenList[tokenAct].Type;
+        }
+        
         void Register()
         {
             Type tInt = typeof(int);
@@ -197,8 +223,21 @@ namespace WalleAnalyzer
             admissibleParameters["IsBrushSize"] = "int";
             admissibleParameters["IsCanvasColor"] = "string,int,int";
 
+            instruction.Add("Spawn");
+            instruction.Add("Color");
+            instruction.Add("Size");
+            instruction.Add("DrawLine");
+            instruction.Add("DrawCircle");
+            instruction.Add("DrawRectangle");
+            instruction.Add("Fill");
 
-
+            function.Add("GetActualX");
+            function.Add("GetActualY");
+            function.Add("GetCavasSize");
+            function.Add("GetColorCount");
+            function.Add("IsBrushColor");
+            function.Add("IsBrushSize");
+            function.Add("IsCanvasColor");
 
 
             parametersType["int,int"] = new List<Type> { tInt, tInt };
@@ -210,30 +249,7 @@ namespace WalleAnalyzer
             parametersType["string,int,int"] = new List<Type> { tString, tInt, tInt };
         }
 
-        /*public void SpawnReader()
-        {
-            if(ConsumeToken() && TokenList[tokenAct].Value == "(")
-            {
-                if (ConsumeToken() && TokenList[tokenAct].Type == TokenType.Number)
-                {
-                    if (ConsumeToken() && TokenList[tokenAct].Value == ",")
-                    {
-                        if (ConsumeToken() && TokenList[tokenAct].Type == TokenType.Number)
-                        {
-                            if (ConsumeToken() && TokenList[tokenAct].Value == ")")
-                            {
-                                Console.WriteLine("Correcto");
-                            }
-                            else Console.WriteLine("Se esperaba ) y se encontro " + TokenList[tokenAct].Value);
-                        }
-                        else Console.WriteLine("Se esperaba un numero y se encontro " + TokenList[tokenAct].Value);
-                    }
-                    else Console.WriteLine("Se esperaba una , y se encontro " + TokenList[tokenAct].Value);
-                }
-                else Console.WriteLine("Se esperaba un numeroy se encontro " + TokenList[tokenAct].Value);
-            }
-            else Console.WriteLine("Se esperaba un ( y se encontro " + TokenList[tokenAct].Value);
-        }*/
+        
     }
 
 }

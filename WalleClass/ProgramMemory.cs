@@ -27,5 +27,10 @@ namespace WalleClass
             labels = new Dictionary<string, int>();
             variables = new Dictionary<string, int>();
         }
+
+        public bool IsInRange((int,int) position)
+        {
+            
+        }
     }
 }

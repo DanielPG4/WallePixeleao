@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WalleClass
 {
-    public class Fill : Intruction
+    public class ColorInstruction : Intruction
     {
-        public Fill((int, int) location, List<Expression> parameter) : base(location, parameter)
+        public ColorInstruction((int, int) location, List<Expression> parameter) : base(location, parameter)
         {
         }
 

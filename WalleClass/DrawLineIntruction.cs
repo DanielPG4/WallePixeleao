@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace WalleClass
 {
-    public abstract class DrawLineIntruction : Intruction
+    public  class DrawLineIntruction : Intruction
     {
-        protected DrawLineIntruction((int, int) location) : base(location)
+        public DrawLineIntruction((int, int) location, List<Expression> parameter) : base(location, parameter)
         {
+        }
+
+        public override void Execute(ProgramMemory programMemory)
+        {
+            throw new NotImplementedException();
         }
     }
 }

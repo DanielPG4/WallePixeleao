@@ -9,9 +9,12 @@ namespace WalleClass
     {
         public (int, int) location;
 
+
         protected Node((int, int) location)
         {
             this.location = location;
         }
+        public abstract void Execute(ProgramMemory programMemory);
+        
     }
 }

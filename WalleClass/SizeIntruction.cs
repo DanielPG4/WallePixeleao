@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace WalleClass
 {
-    public abstract class SizeIntruction : Intruction
+    public class SizeIntruction : Intruction
     {
-        protected SizeIntruction((int, int) location) : base(location)
+        public SizeIntruction((int, int) location, List<Expression> parameter) : base(location, parameter)
         {
+        }
+
+        public override void Execute(ProgramMemory programMemory)
+        {
+            throw new NotImplementedException();
         }
     }
 }

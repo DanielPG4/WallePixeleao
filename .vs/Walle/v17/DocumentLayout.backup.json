@@ -1,29 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\",
+  "WorkspaceRootPath": "C:\\Programming\\WallePixeleao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\programmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\programmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\intruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\intruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\colorinstruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\colorinstruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\drawlineintruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\drawlineintruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\drawcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\drawcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\sizeintruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\sizeintruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\fill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\fill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\node\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\node\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleclass\\scrpt\\expression\\expressionarithmetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expressionarithmetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleclass\\scrpt\\expression\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\users\\porra\\onedrive\\escritorio\\console\\walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,80 +54,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExpressionArithmetic.cs",
-              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
-              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
-              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
-              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:16:41.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Expression.cs",
-              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\Expression.cs",
-              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Expression.cs",
-              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleClass\\Scrpt\\Expression\\Expression.cs",
-              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Expression.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:09:48.692Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Lexer.cs",
-              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Lexer.cs",
-              "RelativeDocumentMoniker": "WalleAnalyzer\\Lexer.cs",
-              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Lexer.cs",
-              "RelativeToolTip": "WalleAnalyzer\\Lexer.cs",
-              "ViewState": "AgIAANIAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAA==",
+              "Title": "ProgramMemory.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\ProgramMemory.cs",
+              "RelativeDocumentMoniker": "WalleClass\\ProgramMemory.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\ProgramMemory.cs",
+              "RelativeToolTip": "WalleClass\\ProgramMemory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:48:33.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Token.cs",
-              "RelativeDocumentMoniker": "WalleAnalyzer\\Token.cs",
-              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Token.cs",
-              "RelativeToolTip": "WalleAnalyzer\\Token.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:26:28.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Error.cs",
-              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Error.cs",
-              "RelativeDocumentMoniker": "WalleAnalyzer\\Error.cs",
-              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Error.cs",
-              "RelativeToolTip": "WalleAnalyzer\\Error.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:23:57.56Z",
+              "WhenOpened": "2025-06-11T19:54:56.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Spawn.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Spawn.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Spawn.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Spawn.cs",
+              "RelativeToolTip": "WalleClass\\Spawn.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA8AAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:51:11.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DrawLineIntruction.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\DrawLineIntruction.cs",
+              "RelativeDocumentMoniker": "WalleClass\\DrawLineIntruction.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\DrawLineIntruction.cs",
+              "RelativeToolTip": "WalleClass\\DrawLineIntruction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:46:25.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrawCircle.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\DrawCircle.cs",
+              "RelativeDocumentMoniker": "WalleClass\\DrawCircle.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\DrawCircle.cs",
+              "RelativeToolTip": "WalleClass\\DrawCircle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:46:23.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColorInstruction.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\ColorInstruction.cs",
+              "RelativeDocumentMoniker": "WalleClass\\ColorInstruction.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\ColorInstruction.cs",
+              "RelativeToolTip": "WalleClass\\ColorInstruction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:46:11.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SizeIntruction.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\SizeIntruction.cs",
+              "RelativeDocumentMoniker": "WalleClass\\SizeIntruction.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\SizeIntruction.cs",
+              "RelativeToolTip": "WalleClass\\SizeIntruction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:43:28.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Fill.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Fill.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Fill.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Fill.cs",
+              "RelativeToolTip": "WalleClass\\Fill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:42:17.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Intruction.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Intruction.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Intruction.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Intruction.cs",
+              "RelativeToolTip": "WalleClass\\Intruction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:25:26.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Node.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Node\\Node.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Node.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Node\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:24:46.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Token.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Token.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Token.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Token.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T18:30:07.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Parser.cs",
-              "DocumentMoniker": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Parser.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Parser.cs",
               "RelativeDocumentMoniker": "WalleAnalyzer\\Parser.cs",
-              "ToolTip": "C:\\Users\\porra\\OneDrive\\Escritorio\\COnsole\\WalleAnalyzer\\Parser.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Parser.cs",
               "RelativeToolTip": "WalleAnalyzer\\Parser.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA4wEoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAcwLQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T19:13:49.967Z",
               "EditorCaption": ""
