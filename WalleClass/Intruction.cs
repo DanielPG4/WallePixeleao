@@ -16,9 +16,9 @@ namespace WalleClass
             this.parameter = parameter;
         }
 
-        public Intruction GetIntruction((int,int) localization, string name, List<Expression> parameter)
+        public static Intruction GetIntruction((int, int) localization, string name, List<Expression> parameter)
         {
-            switch(name)
+            switch (name)
             {
                 case "Spawn":
                     return new Spawn(localization, parameter);
@@ -40,6 +40,6 @@ namespace WalleClass
 
 
             }
-        
+        }
     }
 }

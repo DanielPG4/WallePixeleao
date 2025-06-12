@@ -55,7 +55,15 @@ namespace WalleAnalyzer
 
         public void Parseador()
         {
-            Register(); 
+            
+            tokenAct = 0;
+            
+            if (!IsInRange()) AddError("No hay codigo");
+
+            Register();
+
+
+            ParseIntruction("Spawn");
 
             while (tokenAct < tokenList.Count)
             {
@@ -90,10 +98,7 @@ namespace WalleAnalyzer
             }
         }
 
-        void AddError(string text)
-        {
-            errors.Add(new Error(tokenList[tokenAct].location, text));
-        }
+        
 
         List<Expression> ParseParameters(string name)
         {
@@ -168,8 +173,12 @@ namespace WalleAnalyzer
             return true;
         }
 
-        bool ParseIntruction()
+        bool ParseIntruction(string expectedInstruction = "")
         {
+            if(tokenAct != 0 && tokenList[tokenAct].Value == "Spawn")
+            {
+                AddError("Spawn solo se puede utilizar como primera instrucción");
+            }
             List<Expression> parameters = new List<Expression>();
             Token inst = tokenList[tokenAct];
             if (instruction.Contains(GetTokenValue()))
@@ -178,10 +187,42 @@ namespace WalleAnalyzer
                 parameters = ParseParameters(inst.Value);
 
                 if (parameters == null) return false;
+
                 
+                if( !(expectedInstruction != "" && inst.Value==expectedInstruction))
+                {
+                    AddError($"Se esperaba {expectedInstruction}");
+                    return false;
+                }
+
+                program.Add(Intruction.GetIntruction(inst.location, inst.Value, parameters));
+
                 return true;
             }
             AddError("Se esperaba una instrucción");
+            return false;
+        }
+
+        bool ParseAsign()
+        {
+            Token tok;
+            Expression exp;
+            if(GetTokenType() == TokenType.Variable)
+            {
+                tok = tokenList[tokenAct];
+                if(ConsumeToken() && GetTokenValue() == "<-")
+                {
+                    exp = ParseExpression();
+                    
+                    
+                    if(exp != null)
+                    {
+                        program.Add(new Asign(tok.location, tok.Value, exp));
+                        return true;
+                    }
+                }
+                
+            }
             return false;
         }
 
@@ -203,7 +244,11 @@ namespace WalleAnalyzer
 
             return tokenList[tokenAct].Type;
         }
-        
+        void AddError(string text)
+        {
+            errors.Add(new Error(tokenList[tokenAct].location, text));
+        }
+
         void Register()
         {
             Type tInt = typeof(int);
