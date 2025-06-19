@@ -7,6 +7,13 @@ namespace WalleClass
 {
     public class Goto : Node
     {
-        
+        public Goto((int, int) location) : base(location)
+        {
+        }
+
+        public override void Execute(ProgramMemory programMemory)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace WalleClass
 {
     public abstract class ExpressionArithmetic : Expression
     {
-        protected ExpressionArithmetic(Type exprType, (int, int) location) : base(exprType, location)
+        public ExpressionArithmetic((int, int) location) : base( location)
         {
         }
         public int ArithmeticEvaluate(ProgramMemory program)

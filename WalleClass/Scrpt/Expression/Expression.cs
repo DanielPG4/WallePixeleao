@@ -8,13 +8,11 @@ namespace WalleClass
 {
     public abstract class Expression
     {
-        public Type ExprType { get; private set; }
-        
+        public Type ExprType;
         public (int, int) location;
 
-        public Expression(Type exprType, (int, int) location )
+        public Expression((int, int) location )
         {
-            ExprType = exprType;
             this.location = location;
         }
 

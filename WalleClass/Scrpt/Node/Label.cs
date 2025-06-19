@@ -7,6 +7,8 @@ namespace WalleClass
 {
     public abstract class Label : Node
     {
-        
+        public Label((int, int) location) : base(location)
+        {
+        }
     }
 }

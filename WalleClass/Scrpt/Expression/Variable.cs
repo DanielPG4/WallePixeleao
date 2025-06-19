@@ -7,8 +7,10 @@ namespace WalleClass
 {
     public class Variable : ExpressionArithmetic
     {
-        public Variable(Type exprType, (int, int) location) : base(exprType, location)
+        public string Name { get; set; }
+        public Variable((int, int) location, string name) : base(location)
         {
+            Name = name;
         }
 
         public override object Evaluate(ProgramMemory program)

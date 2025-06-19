@@ -5,8 +5,15 @@ using System.Threading.Tasks;
 
 namespace WalleClass
 {
-    public abstract class Assign : Node
+    public class Assign : Node
     {
-        
+        public Assign((int, int) location) : base(location)
+        {
+        }
+
+        public override void Execute(ProgramMemory programMemory)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

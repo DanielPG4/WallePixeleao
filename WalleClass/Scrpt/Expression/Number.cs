@@ -7,7 +7,7 @@ namespace WalleClass
 {
     public class Number : ExpressionArithmetic
     {
-        public Number(Type exprType, (int, int) location) : base(exprType, location)
+        public Number(Type exprType, (int, int) location) : base(location)
         {
         }
 

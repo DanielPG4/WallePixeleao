@@ -1,0 +1,5 @@
+C:\Programming\WallePixeleao\WalleClass\obj\Debug\net9.0\WalleClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\WallePixeleao\WalleClass\obj\Debug\net9.0\WalleClass.AssemblyInfoInputs.cache
+C:\Programming\WallePixeleao\WalleClass\obj\Debug\net9.0\WalleClass.AssemblyInfo.cs
+C:\Programming\WallePixeleao\WalleClass\obj\Debug\net9.0\WalleClass.csproj.CoreCompileInputs.cache
+C:\Programming\WallePixeleao\WalleClass\obj\Debug\net9.0\WalleClass.sourcelink.json

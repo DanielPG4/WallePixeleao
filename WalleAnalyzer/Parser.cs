@@ -37,9 +37,65 @@ namespace WalleAnalyzer
         {
             if (tokenList[tokenAct].Type == TokenType.In)
         }*/
-        Expression ParseExpression()
+        Expression ParseExpression(int parentPrecedence = 0)
         {
+            if (!IsInRange()) return null;
 
+            Token current = tokenList[tokenAct];
+            Expression left;
+
+            // Parse operand inicial (número o variable)
+            if (current.Type == TokenType.Number)
+            {
+                left = new Literal(current.location, int.Parse(current.Value));
+                ConsumeToken();
+            }
+            else if (current.Type == TokenType.Variable)
+            {
+                left = new Variable(current.location, current.Value);
+                ConsumeToken();
+            }
+            else
+            {
+                AddError($"Se esperaba un número o una variable, se encontró: {current.Value}");
+                return null;
+            }
+
+            // Analizar operadores con precedencia
+            while (IsInRange() && GetTokenType() == TokenType.Operator)
+            {
+                string op = GetTokenValue();
+                int precedence = GetPrecedence(op);
+
+                if (precedence < parentPrecedence) break;
+
+                ConsumeToken(); // Consumir el operador
+
+                Expression right = ParseExpression(precedence + 1); // Recursivo con mayor precedencia
+
+                if (right == null)
+                {
+                    AddError("Expresión incompleta después del operador " + op);
+                    return null;
+                }
+
+                left = new BinaryOp(current.location, left, op, right);
+            }
+
+            return left;
+        }
+
+        int GetPrecedence(string op)
+        {
+            return op switch
+            {
+                "**" => 4,
+                "*" or "/" or "%" => 3,
+                "+" or "-" => 2,
+                "==" or "!=" or "<" or ">" or "<=" or ">=" => 1,
+                "&&" or "||" => 0,
+                _ => -1 // operadores desconocidos
+            };
         }
 
         public bool ConsumeToken()

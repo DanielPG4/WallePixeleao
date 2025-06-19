@@ -7,7 +7,7 @@ namespace WalleClass
 {
     public abstract class Instruct : Node
     {
-        protected Instruct()
+        public Instruct((int, int) location) : base(location)
         {
         }
     }

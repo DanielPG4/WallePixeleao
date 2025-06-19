@@ -7,6 +7,42 @@
       "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\node\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\node\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\node\\instruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\node\\instruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\lexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\asign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\asign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +51,40 @@
       "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\node\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\intruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\intruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\node\\goto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\node\\goto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|c:\\programming\\wallepixeleao\\walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DE975A-5A77-FAF9-B92E-A330E5763AD0}|WalleAnalyzer\\WalleAnalyzer.csproj|solutionrelative:walleanalyzer\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\node\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\node\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\funtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\funtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\expressionbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expressionbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\expressionarithmetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expressionarithmetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\expression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\scrpt\\expression\\binaryop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\scrpt\\expression\\binaryop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\literal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\literal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|c:\\programming\\wallepixeleao\\walleclass\\intruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046798AA-FE1A-83BA-4507-BE3051635F96}|WalleClass\\WalleClass.csproj|solutionrelative:walleclass\\intruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +94,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Parser.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Parser.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Parser.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Parser.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:13:49.967Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Program.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Program.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Program.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:41:10.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logic.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Logic.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Logic.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Logic.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:18:48.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Number.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Number.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Number.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Number.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Number.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:19:55.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Variable.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Variable.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Variable.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Variable.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Variable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:11:09.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Assign.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Assign.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Node\\Assign.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Assign.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Node\\Assign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:20:19.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Goto.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Goto.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Node\\Goto.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Goto.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Node\\Goto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:18:58.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Instruct.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Instruct.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Node\\Instruct.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Instruct.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Node\\Instruct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:20:55.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Label.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Label.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Node\\Label.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Label.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Node\\Label.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:21:32.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Node\\Node.cs",
               "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Node\\Node.cs",
@@ -47,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Asign.cs",
               "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Asign.cs",
               "RelativeDocumentMoniker": "WalleClass\\Asign.cs",
@@ -60,20 +242,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Error.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Error.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Error.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:17:59.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Token.cs",
               "RelativeDocumentMoniker": "WalleAnalyzer\\Token.cs",
               "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Token.cs",
               "RelativeToolTip": "WalleAnalyzer\\Token.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T18:34:07.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
+              "Title": "Funtion.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Funtion.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Funtion.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Funtion.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Funtion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:19:52.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lexer.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Lexer.cs",
+              "RelativeDocumentMoniker": "WalleAnalyzer\\Lexer.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Lexer.cs",
+              "RelativeToolTip": "WalleAnalyzer\\Lexer.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:18:01.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExpressionBool.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\ExpressionBool.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\ExpressionBool.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\ExpressionBool.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\ExpressionBool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:19:31.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExpressionArithmetic.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\ExpressionArithmetic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:10:31.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Expression.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\Expression.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:09:42.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BinaryOp.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\BinaryOp.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Scrpt\\Expression\\BinaryOp.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Scrpt\\Expression\\BinaryOp.cs",
+              "RelativeToolTip": "WalleClass\\Scrpt\\Expression\\BinaryOp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:11:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Literal.cs",
+              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Literal.cs",
+              "RelativeDocumentMoniker": "WalleClass\\Literal.cs",
+              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleClass\\Literal.cs",
+              "RelativeToolTip": "WalleClass\\Literal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:06:26.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Intruction.cs",
               "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleClass\\Intruction.cs",
               "RelativeDocumentMoniker": "WalleClass\\Intruction.cs",
@@ -81,21 +367,7 @@
               "RelativeToolTip": "WalleClass\\Intruction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:04:04.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Parser.cs",
-              "DocumentMoniker": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Parser.cs",
-              "RelativeDocumentMoniker": "WalleAnalyzer\\Parser.cs",
-              "ToolTip": "C:\\Programming\\WallePixeleao\\WalleAnalyzer\\Parser.cs",
-              "RelativeToolTip": "WalleAnalyzer\\Parser.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAIMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:13:49.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T18:04:04.567Z"
             }
           ]
         }

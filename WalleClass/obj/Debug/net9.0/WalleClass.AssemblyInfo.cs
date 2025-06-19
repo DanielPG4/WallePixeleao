@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WalleClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aefd970c6bca67432fae08a62fe40982fc9c6cab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+915ac7d8c986fd2204b320173b86bd840ca31f74")]
 [assembly: System.Reflection.AssemblyProductAttribute("WalleClass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WalleClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
